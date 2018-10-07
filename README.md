@@ -1,3 +1,3 @@
 # tableToJson
 
-Implemented primitive tabular data editor in JavaScript. It's possible to convert  to JSON format
+Implemented a primitive editor of tabular data in JavaScript. Possible conversion to JSON format.
