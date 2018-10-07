@@ -1,0 +1,121 @@
+* {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #949494;
+	box-sizing: border-box;
+}
+
+table {
+	margin-top: 2rem;
+	overflow: hidden;
+	background: #fefefe;
+	width: 500px;
+}
+
+td {
+	text-align: center;
+	width: 250px;
+	border-bottom: 1px solid rgb(190, 190, 190, 0.5);
+	border-left: 1px solid rgb(190, 190, 190, 0.5);
+	outline: none;
+
+}
+
+th {
+	text-align: right;
+	width: 232.5px;
+}
+
+.addButton {
+	display: inline-block;
+	color: white;
+	border: none;
+	width: 30px;
+	outline: none;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.btn {
+	margin: 0;
+	color: white;
+	border: none;
+	height: 72px;
+	width: 30px;
+	outline: none;
+	cursor: pointer;
+	font-weight: 700;
+	margin-right: 1px;
+}
+
+.addButton:hover,
+.btn:hover {
+	background: #ffffff;
+	color: #949494;
+	transition: 0.5s
+}
+
+.removeRow {
+	outline: none;
+	color: white;
+
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.body {
+	display: flex;
+	justify-content: center;
+	align-items: top;
+	flex-direction: row;
+}
+
+#toTextArea {
+	margin-left: 50px;
+	width: 100px;
+	height: 245px;
+	border: none;
+	outline: none;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+
+}
+
+#textArea {
+	width: 300px;
+	height: 245px;
+	overflow-y: scroll;
+	resize: none;
+	outline: none;
+}
+
+.ta-container {
+	display: flex;
+	margin-top: 2rem;
+}
+
+::-webkit-scrollbar {
+	width: 2px;
+	height: 2px;
+}
+
+::-webkit-scrollbar-button {
+	background-color: rgb(190, 190, 190);
+}
+
+::-webkit-scrollbar-track {
+	background-color: #999;
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+	height: 20px;
+	background-color: #666;
+	border-radius: 3px;
+}
