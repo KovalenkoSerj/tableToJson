@@ -4,6 +4,17 @@
 	font-size: 15px;
 	color: #949494;
 	box-sizing: border-box;
+	animation: fade-in 0.5s linear;
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 table {
@@ -19,7 +30,6 @@ td {
 	border-bottom: 1px solid rgb(190, 190, 190, 0.5);
 	border-left: 1px solid rgb(190, 190, 190, 0.5);
 	outline: none;
-
 }
 
 th {
@@ -71,6 +81,7 @@ th {
 	justify-content: center;
 	align-items: top;
 	flex-direction: row;
+	
 }
 
 #toTextArea {

@@ -1,15 +1,16 @@
 
 function addRow() {
   var tbody = document.getElementById('tbody'),
-      row = document.createElement("tr");
+    row = document.createElement("tr");
   var btnDelete = document.createElement("button");
   btnDelete.innerHTML = 'X';
   btnDelete.className = 'btn';
   btnDelete.addEventListener('click', function () {
-  var buttonElement = this;
-  element = buttonElement.closest('tr');
-  element.parentElement.removeChild(element);
+    var buttonElement = this;
+    element = buttonElement.closest('tr');
+    element.parentElement.removeChild(element);
   })
+
   var tdItem = document.createElement("td");
   tdItem.setAttribute('contenteditable', true);
   var tdValue = document.createElement("td");
@@ -59,4 +60,5 @@ $("#toTextArea").on("click", function (e) {
   var table = $("#myTable")[0];
   $("#textArea").val(tableTdsToJSON(table));
 });
+
 
